@@ -1,0 +1,25 @@
+.tablero {
+    width: 306px;
+    height: 306px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cuadrados {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.juego {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
